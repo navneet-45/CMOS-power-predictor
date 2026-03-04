@@ -1,0 +1,16 @@
+{
+    "linear_regression": {
+        "r2": 0.5632272685643486,
+        "rmse": 0.0003219774269365947
+    },
+    "random_forest": {
+        "r2": 0.9739524162807457,
+        "rmse": 7.862875304632088e-05
+    },
+    "feature_importances": {
+        "Switching Activity (\u03b1)": 0.24974012428820574,
+        "Load Cap (fF)": 0.24901698963533273,
+        "Supply Voltage (V)": 0.24300806770807828,
+        "Clock Freq (GHz)": 0.25823481836838336
+    }
+}
