@@ -1,4 +1,4 @@
-# ⚡ CMOS Dynamic Power Consumption Predictor
+# CMOS Dynamic Power Consumption Predictor
 
 > Machine Learning on VLSI Dynamic Power — Linear Regression vs Random Forest
 
@@ -53,30 +53,6 @@ Load Cap (fF):       24.9%
 Supply Voltage (V):  24.3%
 ```
 
-## Setup
-
-```bash
-pip install numpy pandas scikit-learn matplotlib
-python power_model.py
-```
-
-## Project Structure
-
-```
-├── power_model.py          # Dataset generation + model training
-├── cmos_power_predictor.html  # Interactive dashboard
-├── cmos_dataset.csv        # Generated dataset
-└── README.md
-```
-
-## Future Scope
-
-- **DVFS Prediction**: Train model to recommend optimal voltage-frequency pairs for target power budgets
-- **ASIC Optimization**: Extend to multi-module circuits with per-block power breakdown
-- **Leakage Power**: Add temperature-dependent leakage component (I_leak × V_dd)
-- **Real Data**: Validate against SPICE simulation outputs or FPGA power reports
-- **Deep Learning**: LSTM for time-series power prediction during dynamic workloads
-
 ## Applications
 
 - Pre-silicon power estimation in RTL design
@@ -86,4 +62,3 @@ python power_model.py
 
 ---
 
-Built in one night · scikit-learn · Python 3
